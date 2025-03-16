@@ -1,0 +1,43 @@
+.errorMsg{
+	padding: 1px 0px 0px 15px;
+	bottom: 20px;
+	position: relative;
+	display: none;
+	color: red;
+	font-family: verdana;
+	font-size: 13px;
+	float:left;
+}
+/*input{
+	z-index:10000;
+}*/
+
+.errorMsg1{
+	padding: 1px 0px 0px 15px;
+	bottom: 20px;
+	position: relative;
+	display: none;
+	color: red;
+	font-family: verdana;
+	font-size: 13px;
+}
+.submitbtnHome{
+	background: #2A2B26;
+	padding: 8px 22px;
+	border: none;
+	position: relative;
+	top: 30px;
+	left: 390px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: all 0.5s ease;
+	font-family: "Prompt", sans-serif;
+	font-weight: 400;
+}
+.submitbtnHome:hover{
+	background: #f36b1c;
+	color: #000;
+	transition: all 0.5s ease;
+}

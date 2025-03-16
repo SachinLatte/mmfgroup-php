@@ -1,22 +1,79 @@
 //Homepage Hero Carousel
 $('.slider-content').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: true,
-  fade: true,
-  infinite: true,
+  autoplay: true,
   speed: 1000,
-  loop: true,
+  lazyLoad: 'progressive',
   asNavFor: '.slider-thumb',
   arrows: false,
-  autoplaySpeed: 4000,
-  autoplay: true,
-});
+  dots: false,
+  pauseOnHover: false
+}).slickAnimation();
+
 $('.slider-thumb').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   asNavFor: '.slider-content',
   dots: false,
   centerMode: false,
-  focusOnSelect: true
+  focusOnSelect: true,
+  autoplay: true,
+  pauseOnHover: false
 });
+
+//Homepage Counter
+var counter = document.querySelectorAll(".counter")
+window.addEventListener("load", function () {
+  counter.forEach(function (k, v) {
+    var start = counter[v].getAttribute('data-count-start')
+    var end = counter[v].getAttribute('data-count-end')
+    var speed = counter[v].getAttribute('data-speed')
+    setInterval(function () {
+      start++;
+      if (start > end) {
+        return false;
+      }
+      counter[v].innerText = start;
+    }, speed)
+  })
+}, false);
+
+// Smoothscroll
+const lenis = new Lenis({
+  autoRaf: true,
+});
+
+//Homepage Brands Carousel
+$(".brands-carousel1").slick({
+  dots: false,
+  infinite: true,
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 0,
+  cssEase: 'linear',
+  speed: 1800,
+  pauseOnFocus: false,
+  pauseOnHover: false,
+  pauseOnDotsHover: false,
+});
+$(".brands-carousel2").slick({
+  dots: false,
+  infinite: true,
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 0,
+  rtl: true,
+  cssEase: 'linear',
+  speed: 1800,
+  pauseOnFocus: false,
+  pauseOnHover: false,
+  pauseOnDotsHover: false,
+});
+
+//Sticky Navbar
+window.addEventListener('scroll', function () {
+  let header = document.querySelector('.main-header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+});
+
