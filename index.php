@@ -134,57 +134,110 @@
     </div>
 </section><!--why mmf section-->
 <section class="our-services">
-    <div class="custom-container">
     <h4>Our Services</h4>
-      <h1 class="common-heading">What We Do Best</h1>
-      <div class="row cs_gap_y_50 align-items-center">
-          <div class="col-lg-4">
-            <div class="cs_img_box cs_style_1 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-              <img src="img/feature_thumb.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="row cs_gap_y_64">
-              <div class="col-sm-6">
-                <div class="cs_iconbox cs_style_1">
-                  <div class="cs_iconbox_icon cs_center cs_mb_24">
-                  <i class="ri-heart-line"></i>
-                  </div>
-                  <h3 class="cs_fs_24 cs_mb_12">Distribution</h3>
-                  <p class="mb-0 cs_fs_20">Our successful track record goes back 20 years in ensuring a smooth and stress-free sourcing journey, and further helping your brand break new ground across the country. We'll have your brand reach the right people at the right place, so that you can watch your business grow.</p>
+    <h1 class="common-heading">What We Do Best</h1>
+    <div cb-anglist-style="horizontal" class="ang-lst__collection__container w-dyn-list swiper-initialized swiper-horizontal swiper-free-mode swiper-backface-hidden">
+    <div role="list" class="ang-lst__collection__wrapper w-dyn-items" id="swiper-wrapper-058dd41011d8a2e56" aria-live="polite" style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+        <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-active" aria-label="1 / 9">
+            <a href="/en/angebote/atlasology-plus" class="ang-lst__link w-inline-block">
+                <div class="ang-lst__block">
+                    <div class="ang-lst__img-wrapper">
+                        <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bfb83c62ed5413a33e2e37_pli-angebot-thumbs8.jpg" loading="lazy" alt="" class="utl__img" />
+                        <div class="ang-lst__img__gradient"></div>
+                    </div>
+                    <div class="ang-lst__text-wrapper" style="--length: 10;">
+                        <h3 class="ang-lst__heading">Atlasology Plus</h3>
+                        <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 0;">
+                            <div class="utl__button">
+                                <div class="utl__button__text">Learn more</div>
+                                <div class="utl__button__bg">
+                                    <div class="utl__button__icon w-embed">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                            <g id="Gruppe_2112" data-name="Gruppe 2112" transform="translate(17886 -2443)">
+                                                <rect id="Rechteck_1316" data-name="Rechteck 1316" width="16" height="16" transform="translate(-17886 2443)" fill="none"></rect>
+                                                <g id="Gruppe_2111" data-name="Gruppe 2111" transform="translate(-18512 -347.956)">
+                                                    <line id="Linie_163" data-name="Linie 163" x2="13" transform="translate(627.5 2798.956)" fill="none" stroke="currentColor" stroke-width="1.3"></line>
+                                                    <path id="Pfad_393" data-name="Pfad 393" d="M-10563.618,2027.956l5,5-5,5" transform="translate(11199 766)" fill="none" stroke="currentColor" stroke-width="1.3"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="cs_iconbox cs_style_1">
-                  <div class="cs_iconbox_icon cs_center cs_mb_24">
-                  <i class="ri-stack-line"></i>
-                  </div>
-                  <h3 class="cs_fs_24 cs_mb_12">Super Stockist</h3>
-                  <p class="mb-0 cs_fs_20">While you focus on building your brand, we'll help you in growing its audience. Our network of GT distributors, RMT Stores, Modern Trade, E-comm, Bakeries, HO.RE.CA Partners and more are ready to take your products to every corner of the country.</p>
+                <div class="utl-hover__block"></div>
+            </a>
+        </div>
+        <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-next" aria-label="2 / 9">
+            <a href="/en/angebote/naturopathy" class="ang-lst__link w-inline-block">
+                <div class="ang-lst__block">
+                    <div class="ang-lst__img-wrapper">
+                        <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bb5fb75ddb3429732a76a3_pli-angebot-thumbs3.jpg" loading="lazy" alt="" class="utl__img" />
+                        <div class="ang-lst__img__gradient"></div>
+                    </div>
+                    <div class="ang-lst__text-wrapper" style="--length: 10;">
+                        <h3 class="ang-lst__heading">Naturopathy</h3>
+                        <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 1;">
+                            <div class="utl__button">
+                                <div class="utl__button__text">Learn more</div>
+                                <div class="utl__button__bg">
+                                    <div class="utl__button__icon w-embed">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                            <g id="Gruppe_2112" data-name="Gruppe 2112" transform="translate(17886 -2443)">
+                                                <rect id="Rechteck_1316" data-name="Rechteck 1316" width="16" height="16" transform="translate(-17886 2443)" fill="none"></rect>
+                                                <g id="Gruppe_2111" data-name="Gruppe 2111" transform="translate(-18512 -347.956)">
+                                                    <line id="Linie_163" data-name="Linie 163" x2="13" transform="translate(627.5 2798.956)" fill="none" stroke="currentColor" stroke-width="1.3"></line>
+                                                    <path id="Pfad_393" data-name="Pfad 393" d="M-10563.618,2027.956l5,5-5,5" transform="translate(11199 766)" fill="none" stroke="currentColor" stroke-width="1.3"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="cs_iconbox cs_style_1">
-                  <div class="cs_iconbox_icon cs_center cs_mb_24">
-                  <i class="ri-links-line"></i>
-                  </div>
-                  <h3 class="cs_fs_24 cs_mb_12">Marketing & Sales</h3>
-                  <p class="mb-0 cs_fs_20">As the main link between your brand and retailers, our sales force is committed to helping your products fly off the shelves. The combined power of our expansive distribution network plus a roster of key clients can bring you improved sales volumes as well as deeper market penetration.</p>
+                <div class="utl-hover__block"></div>
+            </a>
+        </div>
+        <div role="group" class="ang-lst__collection__item w-dyn-item" aria-label="3 / 9">
+            <a href="/en/angebote/massage" class="ang-lst__link w-inline-block">
+                <div class="ang-lst__block">
+                    <div class="ang-lst__img-wrapper">
+                        <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bbe3132250795f49e83b45_pli-angebot-thumbs5.jpg" loading="lazy" alt="" class="utl__img" />
+                        <div class="ang-lst__img__gradient"></div>
+                    </div>
+                    <div class="ang-lst__text-wrapper" style="--length: 10;">
+                        <h3 class="ang-lst__heading">Massage</h3>
+                        <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 2;">
+                            <div class="utl__button">
+                                <div class="utl__button__text">Learn more</div>
+                                <div class="utl__button__bg">
+                                    <div class="utl__button__icon w-embed">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                            <g id="Gruppe_2112" data-name="Gruppe 2112" transform="translate(17886 -2443)">
+                                                <rect id="Rechteck_1316" data-name="Rechteck 1316" width="16" height="16" transform="translate(-17886 2443)" fill="none"></rect>
+                                                <g id="Gruppe_2111" data-name="Gruppe 2111" transform="translate(-18512 -347.956)">
+                                                    <line id="Linie_163" data-name="Linie 163" x2="13" transform="translate(627.5 2798.956)" fill="none" stroke="currentColor" stroke-width="1.3"></line>
+                                                    <path id="Pfad_393" data-name="Pfad 393" d="M-10563.618,2027.956l5,5-5,5" transform="translate(11199 766)" fill="none" stroke="currentColor" stroke-width="1.3"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="cs_iconbox cs_style_1">
-                  <div class="cs_iconbox_icon cs_center cs_mb_24">
-                  <i class="ri-recycle-line"></i>
-                  </div>
-                  <h3 class="cs_fs_24 cs_mb_12">Marketing & Sales</h3>
-                  <p class="mb-0 cs_fs_20">As the main link between your brand and retailers, our sales force is committed to helping your products fly off the shelves. The combined power of our expansive distribution network plus a roster of key clients can bring you improved sales volumes as well as deeper market penetration.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+                <div class="utl-hover__block"></div>
+            </a>
         </div>
     </div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+</div>
+
 </section><!--our services section-->
 <!-- <section class="home-our-partners">
     <div class="custom-container">
