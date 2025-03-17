@@ -1,0 +1,82 @@
+@media(max-width:1600px){
+
+}
+@media(max-width:1536px){
+  .why-mmf-content h4 {
+    font-size: 23px;
+}
+.cs_img_box img {
+  width: 100%;
+}
+.home-our-partners p br{
+display: none;
+}
+.partners-section .partners-img img {
+  width: 60%;
+}
+.brands-container {
+  margin-top: 50px;
+}
+
+}
+@media(max-width:1470px){
+  .banner-content h1 {
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.banner-content{
+  top:42%;
+}
+.slider-thumb-content h4 {
+  font-size: 17px;
+}
+.about-one .sec-title h3 {
+  font-size: 45px;
+  line-height: 60px;
+}
+.about-one__list__item i {
+  margin-right: 5px;
+}
+a.wallox-btn {
+  padding: 13px 15px;
+}
+.common-heading {
+  font-size: 38px;
+}
+.why-mmf-content h4 {
+  font-size: 22px;
+}
+.cs_iconbox {
+  padding: 0 15px 0 0;
+}
+.homepage-counter .counter-content h1 {
+  font-size: 50px;
+  line-height: 70px;
+}
+.homepage-counter .main-counter span {
+  font-size: 85px;
+}
+.homepage-counter .main-counter span.kclass::after {
+  font-size: 70px;
+  right: -45px;
+}
+.homepage-network .network-content p span {
+  font-size: 26px;
+}
+.video-section h1 {
+  font-size: 50px;
+}
+.homepage-network .network-content p {
+  line-height: 36px;
+}
+.contact-info ul {
+  margin-top: 30px;
+}
+.contact-info {
+  padding: 0 0 0 45px;
+}
+.contact-info ul li:nth-last-child(1){
+  display: none;
+}
+}

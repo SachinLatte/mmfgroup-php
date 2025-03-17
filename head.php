@@ -12,7 +12,11 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
   <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
   <link href="css/forms.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+  <!-- Back to top button -->
+<a id="scroll-to-top-button"><i class="ri-arrow-up-line"></i></a>

@@ -4,16 +4,16 @@
   <div class="hero-carousel-navigations">
     <div class="slider slider-thumb">
       <div class="slider-thumb-content">
-        <i class="icons"><img src="img/icon1.svg" alt=""></i>
-        <h4>Smart Solar <br> Technologgy</h4>
+        <i class="icons"><img src="img/distribution.png" alt="Distribution Img"></i>
+        <h4>Distribution</h4>
       </div>
       <div class="slider-thumb-content">
-        <i class="icons"><img src="img/icon2.svg" alt=""></i>
-        <h4>Advanced Solar <br> Solutions</h4>
+        <i class="icons"><img src="img/stockist.png" alt="Super Stockist Img"></i>
+        <h4>Super Stockist</h4>
       </div>
       <div class="slider-thumb-content">
-        <i class="icons"><img src="img/icon3.svg" alt=""></i>
-        <h4>Unlimited Solar <br> Power</h4>
+        <i class="icons"><img src="img/marketing.png" alt="Marketing & Sales Img"></i>
+        <h4>Marketing & Sales</h4>
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@
             <div class="custom-container">
                 <div class="row align-items-center gutter-y-30">
                     <div class="col-lg-6">
-                        <div class="about-one__thumb">
+                        <div class="about-one__thumb" data-aos="fade-right">
                             <div class="about-one__thumb__item real-image">
                                 <img src="img/about-1-1.jpg" alt="about us image">
                             </div>
@@ -62,15 +62,15 @@
                         <div class="about-one__right">
                             <div class="sec-title text-start">
                                 <div class="d-flex align-items-center justify-content-start">
-                                    <h6 class="sec-title__tagline bw-split-in-right">Who We Are</h6>
+                                    <h6 class="sec-title__tagline bw-split-in-right" data-aos="fade-left">Who We Are</h6>
                                 </div>
-                                <h3 class="sec-title__title bw-split-in-up">Helping Brands Reach Households
+                                <h3 class="sec-title__title bw-split-in-up" data-aos="fade-left" data-aos-duration="1000">Helping Brands Reach Households
                                 Across India</h3>
                             </div>
-                            <p class="about-one__top__text">We are Manoj Multifoods Pvt. Ltd. (MMF Group) - one of the leading sales and distribution organisations in the country, headquartered in Asia's biggest market yard, APMC Market in Vashi, Navi Mumbai. </p>
+                            <p class="about-one__top__text" data-aos="fade-left" data-aos-duration="1300">We are Manoj Multifoods Pvt. Ltd. (MMF Group) - one of the leading sales and distribution organisations in the country, headquartered in Asia's biggest market yard, APMC Market in Vashi, Navi Mumbai. </p>
                             <div class="row align-items-center gutter-y-30">
                                 <div class="col-sm-6">
-                                    <div class="about-one__video">
+                                    <div class="about-one__video" data-aos="fade-left" data-aos-duration="1350">
                                         <img src="img/video-bg.jpg" alt="mmfgroup image">
                                         <div class="about-one__video-popup">
                                             <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="about-one__video video-popup">
@@ -81,14 +81,14 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <ul class="about-one__list list-unstyled">
-                                        <li class="about-one__list__item"> <i class="ri-check-line"></i> We’re professional</li>
-                                        <li class="about-one__list__item"> <i class="ri-check-line"></i> We use quality material</li>
-                                        <li class="about-one__list__item"> <i class="ri-check-line"></i> 100% customers satisfaction</li>
+                                        <li class="about-one__list__item" data-aos="fade-left" data-aos-duration="1370"> <i class="ri-check-line"></i> We're professional</li>
+                                        <li class="about-one__list__item" data-aos="fade-left" data-aos-duration="1380"> <i class="ri-check-line"></i> We use quality material</li>
+                                        <li class="about-one__list__item" data-aos="fade-left" data-aos-duration="1390"> <i class="ri-check-line"></i> 100% customers satisfaction</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="about-one__client">
-                                <a href="about-us.php" class="wallox-btn wallox-btn--base">more about us</a>
+                            <div class="about-one__client" data-aos="fade-left" data-aos-duration="1400">
+                                <a href="about-us.php" class="wallox-btn wallox-btn--base">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -99,6 +99,165 @@
             </div>
         </div>
 </section><!--about us section-->
+<section class="why-mmf">
+    <div class="why-mmf-main">
+    <h1 class="common-heading">Why MMF?</h1>
+    <p>After decades of keeping pace with the dynamisms of Indian retail, we have developed holistic expertise over multiple sectors. <br> We are fully equipped to take your brand to greater heights.</p>
+    <div class="custom-container">
+      <div class="row">
+      <div class="col-md-4">
+            <div class="why-mmf-content">
+              <img src="img/quality.svg" alt="">
+              <h4>Superior Quality Products</h4>
+              <span>Quality and quantity exist in tandem
+              with every  product we supply.</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="why-mmf-content">
+              <img src="img/quality.svg" alt="">
+              <h4>Customer Focussed</h4>
+              <span>Not just satisfying needs, but also
+              fulfilling wants before they arise.</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="why-mmf-content">
+            <img src="img/quality.svg" alt="">
+              <h4>Custom-Made Solutions</h4>
+              <span>Services tailored to fit the size,
+              nature and demands of  every business.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</section><!--why mmf section-->
+<section class="our-services">
+    <div class="custom-container">
+    <h4>Our Services</h4>
+      <h1 class="common-heading">What We Do Best</h1>
+      <div class="row cs_gap_y_50 align-items-center">
+          <div class="col-lg-4">
+            <div class="cs_img_box cs_style_1 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+              <img src="img/feature_thumb.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row cs_gap_y_64">
+              <div class="col-sm-6">
+                <div class="cs_iconbox cs_style_1">
+                  <div class="cs_iconbox_icon cs_center cs_mb_24">
+                  <i class="ri-heart-line"></i>
+                  </div>
+                  <h3 class="cs_fs_24 cs_mb_12">Distribution</h3>
+                  <p class="mb-0 cs_fs_20">Our successful track record goes back 20 years in ensuring a smooth and stress-free sourcing journey, and further helping your brand break new ground across the country. We'll have your brand reach the right people at the right place, so that you can watch your business grow.</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="cs_iconbox cs_style_1">
+                  <div class="cs_iconbox_icon cs_center cs_mb_24">
+                  <i class="ri-stack-line"></i>
+                  </div>
+                  <h3 class="cs_fs_24 cs_mb_12">Super Stockist</h3>
+                  <p class="mb-0 cs_fs_20">While you focus on building your brand, we'll help you in growing its audience. Our network of GT distributors, RMT Stores, Modern Trade, E-comm, Bakeries, HO.RE.CA Partners and more are ready to take your products to every corner of the country.</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="cs_iconbox cs_style_1">
+                  <div class="cs_iconbox_icon cs_center cs_mb_24">
+                  <i class="ri-links-line"></i>
+                  </div>
+                  <h3 class="cs_fs_24 cs_mb_12">Marketing & Sales</h3>
+                  <p class="mb-0 cs_fs_20">As the main link between your brand and retailers, our sales force is committed to helping your products fly off the shelves. The combined power of our expansive distribution network plus a roster of key clients can bring you improved sales volumes as well as deeper market penetration.</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="cs_iconbox cs_style_1">
+                  <div class="cs_iconbox_icon cs_center cs_mb_24">
+                  <i class="ri-recycle-line"></i>
+                  </div>
+                  <h3 class="cs_fs_24 cs_mb_12">Marketing & Sales</h3>
+                  <p class="mb-0 cs_fs_20">As the main link between your brand and retailers, our sales force is committed to helping your products fly off the shelves. The combined power of our expansive distribution network plus a roster of key clients can bring you improved sales volumes as well as deeper market penetration.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section><!--our services section-->
+<!-- <section class="home-our-partners">
+    <div class="custom-container">
+        <h1 class="common-heading">Our Partners</h1>
+        <p>We are proud to be relied on by some of the leading names in the Indian Retail and FMCG sphere. Our commitment to quality and efficiency has helped us foster <br> long-standing relationships with clients across categories from grains and pulses, to baked goods, to condiments and more.</p>
+          <div class="partners-section mt-70">
+            <div class="row">
+              <div class="col-md-3 mb-50">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/d_mart.png" alt="dmart img">
+                  </div>
+              </div>
+              <div class="col-md-3 mb-50">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/dunzo.png" alt="dunzo img">
+                  </div>
+              </div>
+              <div class="col-md-3 mb-50">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/metro.png" alt="metro img">
+                  </div>
+              </div>
+              <div class="col-md-3 mb-50">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/zepto.png" alt="zepto img">
+                  </div>
+              </div>
+              <div class="col-md-3 mb-50">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/natures_basket.png" alt="natures_basket img">
+                  </div>
+              </div>
+              <div class="col-md-3 mb-50">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/swiggy_logo.png" alt="swiggy_logo img">
+                  </div>
+              </div>
+              <div class="col-md-3 mb-50">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/amazon.png" alt="amazon img">
+                  </div>
+              </div>
+              <div class="col-md-3 mb-50">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/food_hall.png" alt="food_hall img">
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/big_basket.png" alt="big_basket img">
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/deal_share.png" alt="deal_share img">
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/booker.png" alt="booker img">
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="partners-img">
+                    <img src="img/retail-partners/dmart_ready.png" alt="dmart_ready img">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <button class="know-more mt-5"><a href="javascript:void(0)">Know More</a></button>
+    </div>
+</section> -->
+<!--Our Partners Section-->
 <section class="homepage-counter">
     <div class="custom-container">
       <div class="row">
@@ -143,7 +302,7 @@
       </div>
     </div>
 </section><!--Home Counter Section-->
-<section class="brands-carousel">
+  <section class="brands-carousel">
     <h1 class="common-heading">Trusted by great companies</h1>
     <div class="brands-container">
       <div class="brands-carousel1 mt-5">
@@ -202,40 +361,27 @@
       </div>
     </div>
   </section><!--Homepage Brands Carousel-->
-  <section class="why-mmf">
-    <div class="why-mmf-main">
-    <h1 class="common-heading">Why MMF?</h1>
-    <p>After decades of keeping pace with the dynamisms of Indian retail, we have developed holistic expertise over multiple sectors. <br> We are fully equipped to take your brand to greater heights.</p>
+  <section class="homepage-network">
     <div class="custom-container">
       <div class="row">
-      <div class="col-md-4">
-            <div class="why-mmf-content">
-              <img src="img/quality.svg" alt="">
-              <h4>Superior Quality Products</h4>
-              <span>Quality and quantity exist in tandem
-              with every  product we supply.</span>
+        <div class="col-md-7">
+            <div class="video-section">
+                <h1>Our Reach</h1>
+                <p>Marketing Presence in 50+ Countries</p>
+                <img src="img/world-map.png" alt="world map img" />
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="why-mmf-content">
-              <img src="img/quality.svg" alt="">
-              <h4>Customer Focussed</h4>
-              <span>Not just satisfying needs, but also
-              fulfilling wants before they arise.</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="why-mmf-content">
-            <img src="img/quality.svg" alt="">
-              <h4>Custom-Made Solutions</h4>
-              <span>Services tailored to fit the size,
-              nature and demands of  every business.</span>
-            </div>
+        <div class="col-md-5">
+            <div class="network-content">
+              <p>Having the right network is the key to success in any industry, and more so in Indian Retail. At MMF, we pride ourselves in being able to transform and optimise our services to match the growth of your business needs.</p>
+              <br />
+              <p>Our coverage stretches <span>22 major cities</span> in every end of the country. We have joined forces with <span>110 + distributors</span> , who manage <span>19,700+ outlets</span> . We operate out of <span>1 Central Warehouse</span>  in Mumbai, supplying all kinds of concerns that include 480 + SAS/NMT stores , 176 Modern Trade Stores (MT), 12 E-Comm chains, and 3 cash-n-carry chains.</p>
+              <button class="know-more"><a href="javascript:void(0)">Know More</a></button>
+            </div>  
         </div>
       </div>
     </div>
-    </div>
-</section><!--why mmf section-->
+  </section><!--homepage network section-->
   <section class="contact-us">
     <div class="custom-container">
       <div class="row">
@@ -283,58 +429,5 @@
       </div>
     </div>
   </section><!--Contact Us Section-->
-  <section class="our-services">
-    <div class="custom-container">
-    <h4>Our Services</h4>
-      <h1 class="common-heading">What We Do Best</h1>
-      <div class="row cs_gap_y_50 align-items-center">
-          <div class="col-lg-4">
-            <div class="cs_img_box cs_style_1 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-              <img src="img/feature_thumb.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="row cs_gap_y_64">
-              <div class="col-sm-6">
-                <div class="cs_iconbox cs_style_1">
-                  <div class="cs_iconbox_icon cs_center cs_mb_24">
-                  <i class="ri-heart-line"></i>
-                  </div>
-                  <h3 class="cs_fs_24 cs_mb_12">Distribution</h3>
-                  <p class="mb-0 cs_fs_20">Our successful track record goes back 20 years in ensuring a smooth and stress-free sourcing journey, and further helping your brand break new ground across the country. We'll have your brand reach the right people at the right place, so that you can watch your business grow.</p>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="cs_iconbox cs_style_1">
-                  <div class="cs_iconbox_icon cs_center cs_mb_24">
-                  <i class="ri-stack-line"></i>
-                  </div>
-                  <h3 class="cs_fs_24 cs_mb_12">Super Stockist</h3>
-                  <p class="mb-0 cs_fs_20">While you focus on building your brand, we'll help you in growing its audience. Our network of GT distributors, RMT Stores, Modern Trade, E-comm, Bakeries, HO.RE.CA Partners and more are ready to take your products to every corner of the country.</p>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="cs_iconbox cs_style_1">
-                  <div class="cs_iconbox_icon cs_center cs_mb_24">
-                  <i class="ri-links-line"></i>
-                  </div>
-                  <h3 class="cs_fs_24 cs_mb_12">Marketing & Sales</h3>
-                  <p class="mb-0 cs_fs_20">As the main link between your brand and retailers, our sales force is committed to helping your products fly off the shelves. The combined power of our expansive distribution network plus a roster of key clients can bring you improved sales volumes as well as deeper market penetration.</p>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="cs_iconbox cs_style_1">
-                  <div class="cs_iconbox_icon cs_center cs_mb_24">
-                  <i class="ri-recycle-line"></i>
-                  </div>
-                  <h3 class="cs_fs_24 cs_mb_12">Marketing & Sales</h3>
-                  <p class="mb-0 cs_fs_20">As the main link between your brand and retailers, our sales force is committed to helping your products fly off the shelves. The combined power of our expansive distribution network plus a roster of key clients can bring you improved sales volumes as well as deeper market penetration.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-  </section><!--our services section-->
-
+  <?php include "footer.php" ?>
 <?php include "tail.php" ?>

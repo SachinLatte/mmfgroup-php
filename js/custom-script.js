@@ -77,3 +77,26 @@ window.addEventListener('scroll', function () {
   header.classList.toggle('sticky', window.scrollY > 0);
 });
 
+//Scroll to top js
+var btn = $('#scroll-to-top-button');
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+//Aos Animation
+AOS.init({
+  duration: 1200,
+  once:true
+})
+
+//Current year script
+let CurrentDate = new Date();
+document.querySelector('.currentYear').innerText = CurrentDate.getFullYear();
