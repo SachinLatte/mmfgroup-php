@@ -42,111 +42,74 @@
 </section><!--Home carousel section-->
 <section class="home-about-us">
   <div class="about-one">
-            <div class="custom-container">
-                <div class="row align-items-center gutter-y-30">
-                    <div class="col-lg-6">
-                        <div class="about-one__thumb" data-aos="fade-right">
-                            <div class="about-one__thumb__item real-image">
-                                <img src="img/about-1-1.jpg" alt="about us image">
-                            </div>
-                            <div class="about-one__funfact count-box">
-                                <h3 class="about-one__count">
-                                    <span class="counter" data-count-start="0" data-count-end="25" data-speed="60"></span>
-                                    <span>+</span>
-                                </h3>
-                                <p class="about-one__funfact__text">years of <br> experience</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-one__right">
-                            <div class="sec-title text-start">
-                                <div class="d-flex align-items-center justify-content-start">
-                                    <h6 class="sec-title__tagline bw-split-in-right" data-aos="fade-left">Who We Are</h6>
-                                </div>
-                                <h3 class="sec-title__title bw-split-in-up" data-aos="fade-left" data-aos-duration="1000">Helping Brands Reach Households
-                                Across India</h3>
-                            </div>
-                            <p class="about-one__top__text" data-aos="fade-left" data-aos-duration="1300">We are Manoj Multifoods Pvt. Ltd. (MMF Group) - one of the leading sales and distribution organisations in the country, headquartered in Asia's biggest market yard, APMC Market in Vashi, Navi Mumbai. </p>
-                            <div class="row align-items-center gutter-y-30">
-                                <div class="col-sm-6">
-                                    <div class="about-one__video" data-aos="fade-left" data-aos-duration="1350">
-                                        <img src="img/video-bg.jpg" alt="mmfgroup image">
-                                        <div class="about-one__video-popup">
-                                            <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="about-one__video video-popup">
-                                            <i class="ri-youtube-fill"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <ul class="about-one__list list-unstyled">
-                                        <li class="about-one__list__item" data-aos="fade-left" data-aos-duration="1370"> <i class="ri-check-line"></i> We're professional</li>
-                                        <li class="about-one__list__item" data-aos="fade-left" data-aos-duration="1380"> <i class="ri-check-line"></i> We use quality material</li>
-                                        <li class="about-one__list__item" data-aos="fade-left" data-aos-duration="1390"> <i class="ri-check-line"></i> 100% customers satisfaction</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="about-one__client" data-aos="fade-left" data-aos-duration="1400">
-                                <a href="about-us.php" class="wallox-btn wallox-btn--base">Know More</a>
-                            </div>
-                        </div>
+    <div class="custom-container">
+        <div class="row align-items-center gutter-y-30">
+            <div class="col-lg-5">
+                <div class="about-one__thumb" data-aos="fade-right">
+                    <div class="about-one__thumb__item real-image">
+                        <img src="img/about-1-1.jpg" alt="about us image">
                     </div>
                 </div>
             </div>
-            <div class="about-one__shape">
-                <img src="assets/images/shapes/about-2-1.png" alt>
+            <div class="col-lg-7">
+                <div class="about-one__right">
+                    <div class="sec-title text-start">
+                        <div class="d-flex align-items-center justify-content-start">
+                            <h6 class="sec-title__tagline bw-split-in-right" data-aos="fade-left">Who We Are</h6>
+                        </div>
+                        <h3 class="sec-title__title bw-split-in-up" data-aos="fade-left" data-aos-duration="1000">Helping Brands Reach Households
+                        Across India</h3>
+                    </div>
+                    <p class="about-one__top__text" data-aos="fade-left" data-aos-duration="1300">We are Manoj Multifoods Pvt. Ltd. (MMF Group) - one of the leading sales and distribution organisations in the country, headquartered in Asia's biggest market yard, APMC Market in Vashi, Navi Mumbai. Originally founded as a proprietorship concern by Manoj Satia, an industry stalwart since 1993, MMF Group takes your brand to every household through 3 areas of focus, namely marketing, sales, and seamless distribution.</p>
+                    <div class="about-one__client" data-aos="fade-left" data-aos-duration="1400">
+                        <a href="about-us.php" class="wallox-btn wallox-btn--base">Know More</a>
+                    </div>
+                </div>
             </div>
         </div>
-</section><!--about us section-->
-<section class="why-mmf">
-    <div class="why-mmf-main">
-    <h1 class="common-heading">Why MMF?</h1>
-    <p>After decades of keeping pace with the dynamisms of Indian retail, we have developed holistic expertise over multiple sectors. <br> We are fully equipped to take your brand to greater heights.</p>
-    <div class="custom-container">
-      <div class="row">
-      <div class="col-md-4">
+        <div class="row usps-section">
+          <div class="col-md-4">
             <div class="why-mmf-content">
               <img src="img/quality.svg" alt="">
               <h4>Superior Quality Products</h4>
               <span>Quality and quantity exist in tandem
               with every  product we supply.</span>
             </div>
-        </div>
-        <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
             <div class="why-mmf-content">
-              <img src="img/quality.svg" alt="">
+              <img src="img/target.svg" alt="">
               <h4>Customer Focussed</h4>
               <span>Not just satisfying needs, but also
               fulfilling wants before they arise.</span>
             </div>
-        </div>
-        <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
             <div class="why-mmf-content">
-            <img src="img/quality.svg" alt="">
+              <img src="img/solution.svg" alt="">
               <h4>Custom-Made Solutions</h4>
-              <span>Services tailored to fit the size,
-              nature and demands of  every business.</span>
+              <span>Quality and quantity exist in tandem
+              with every  product we supply.</span>
             </div>
+          </div>
         </div>
-      </div>
     </div>
-    </div>
-</section><!--why mmf section-->
+  </div>
+</section><!--about us section-->
 <section class="our-services">
     <h4>Our Services</h4>
     <h1 class="common-heading">What We Do Best</h1>
     <div cb-anglist-style="horizontal" class="ang-lst__collection__container w-dyn-list swiper-initialized swiper-horizontal swiper-free-mode swiper-backface-hidden">
     <div role="list" class="ang-lst__collection__wrapper w-dyn-items" id="swiper-wrapper-058dd41011d8a2e56" aria-live="polite" style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
-        <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-active" aria-label="1 / 9">
-            <a href="/en/angebote/atlasology-plus" class="ang-lst__link w-inline-block">
+        <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-active mr-35" aria-label="1 / 9">
+            <a href="javascript:void(0)" class="ang-lst__link w-inline-block">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
                         <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bfb83c62ed5413a33e2e37_pli-angebot-thumbs8.jpg" loading="lazy" alt="" class="utl__img" />
                         <div class="ang-lst__img__gradient"></div>
                     </div>
                     <div class="ang-lst__text-wrapper" style="--length: 10;">
-                        <h3 class="ang-lst__heading">Atlasology Plus</h3>
+                        <h3 class="ang-lst__heading">Distribution</h3>
                         <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 0;">
                             <div class="utl__button">
                                 <div class="utl__button__text">Learn more</div>
@@ -170,15 +133,15 @@
                 <div class="utl-hover__block"></div>
             </a>
         </div>
-        <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-next" aria-label="2 / 9">
-            <a href="/en/angebote/naturopathy" class="ang-lst__link w-inline-block">
+        <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-next mr-35" aria-label="2 / 9">
+            <a href="javascript:void(0)" class="ang-lst__link w-inline-block">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
                         <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bb5fb75ddb3429732a76a3_pli-angebot-thumbs3.jpg" loading="lazy" alt="" class="utl__img" />
                         <div class="ang-lst__img__gradient"></div>
                     </div>
                     <div class="ang-lst__text-wrapper" style="--length: 10;">
-                        <h3 class="ang-lst__heading">Naturopathy</h3>
+                        <h3 class="ang-lst__heading">Marketing & Sales</h3>
                         <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 1;">
                             <div class="utl__button">
                                 <div class="utl__button__text">Learn more</div>
@@ -202,16 +165,16 @@
                 <div class="utl-hover__block"></div>
             </a>
         </div>
-        <div role="group" class="ang-lst__collection__item w-dyn-item" aria-label="3 / 9">
-            <a href="/en/angebote/massage" class="ang-lst__link w-inline-block">
+        <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-active mr-35" aria-label="1 / 9">
+            <a href="javascript:void(0)" class="ang-lst__link w-inline-block">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
-                        <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bbe3132250795f49e83b45_pli-angebot-thumbs5.jpg" loading="lazy" alt="" class="utl__img" />
+                        <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bfb83c62ed5413a33e2e37_pli-angebot-thumbs8.jpg" loading="lazy" alt="" class="utl__img" />
                         <div class="ang-lst__img__gradient"></div>
                     </div>
                     <div class="ang-lst__text-wrapper" style="--length: 10;">
-                        <h3 class="ang-lst__heading">Massage</h3>
-                        <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 2;">
+                        <h3 class="ang-lst__heading">Distribution</h3>
+                        <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 0;">
                             <div class="utl__button">
                                 <div class="utl__button__text">Learn more</div>
                                 <div class="utl__button__bg">
@@ -239,78 +202,6 @@
 </div>
 
 </section><!--our services section-->
-<!-- <section class="home-our-partners">
-    <div class="custom-container">
-        <h1 class="common-heading">Our Partners</h1>
-        <p>We are proud to be relied on by some of the leading names in the Indian Retail and FMCG sphere. Our commitment to quality and efficiency has helped us foster <br> long-standing relationships with clients across categories from grains and pulses, to baked goods, to condiments and more.</p>
-          <div class="partners-section mt-70">
-            <div class="row">
-              <div class="col-md-3 mb-50">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/d_mart.png" alt="dmart img">
-                  </div>
-              </div>
-              <div class="col-md-3 mb-50">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/dunzo.png" alt="dunzo img">
-                  </div>
-              </div>
-              <div class="col-md-3 mb-50">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/metro.png" alt="metro img">
-                  </div>
-              </div>
-              <div class="col-md-3 mb-50">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/zepto.png" alt="zepto img">
-                  </div>
-              </div>
-              <div class="col-md-3 mb-50">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/natures_basket.png" alt="natures_basket img">
-                  </div>
-              </div>
-              <div class="col-md-3 mb-50">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/swiggy_logo.png" alt="swiggy_logo img">
-                  </div>
-              </div>
-              <div class="col-md-3 mb-50">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/amazon.png" alt="amazon img">
-                  </div>
-              </div>
-              <div class="col-md-3 mb-50">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/food_hall.png" alt="food_hall img">
-                  </div>
-              </div>
-              <div class="col-md-3">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/big_basket.png" alt="big_basket img">
-                  </div>
-              </div>
-              <div class="col-md-3">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/deal_share.png" alt="deal_share img">
-                  </div>
-              </div>
-              <div class="col-md-3">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/booker.png" alt="booker img">
-                  </div>
-              </div>
-              <div class="col-md-3">
-                  <div class="partners-img">
-                    <img src="img/retail-partners/dmart_ready.png" alt="dmart_ready img">
-                  </div>
-              </div>
-            </div>
-          </div>
-          <button class="know-more mt-5"><a href="javascript:void(0)">Know More</a></button>
-    </div>
-</section> -->
-<!--Our Partners Section-->
 <section class="homepage-counter">
     <div class="custom-container">
       <div class="row">
@@ -467,13 +358,6 @@
                 <div class="address-content">
                   <span>Mail Us</span>
                   <p><a href="mailto:info@mmfgroup.in">info@mmfgroup.in</a></p>
-                </div>
-              </li>
-              <li>
-                <div class="icons"><img src="img/time.svg" alt="time img"></div>
-                <div class="address-content">
-                  <span>Operation Hours</span>
-                  <p>Mon-Saturday: 10.30 to 07.00 (Sunday: Closed)</p>
                 </div>
               </li>
             </ul>
