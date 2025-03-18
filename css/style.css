@@ -35,6 +35,7 @@ input[type=number] {
   --common-padding: 6% 0;
   --tc-shadow-1: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   --bg-color: #15152a;
+  --bg-color1:#F3F7FA;
 }
 
 .custom-container {
@@ -374,7 +375,7 @@ input[type=number] {
   color: var(--white);
   font-family: var(--heading-font);
   font-size: 55px;
-  line-height: 80px;
+  line-height: 75px;
 }
 
 .homepage-counter .counter-content hr {
@@ -390,7 +391,7 @@ input[type=number] {
   font-size: 17px;
   line-height: 30px;
   letter-spacing: 1px;
-  margin-top: 55px;
+  margin-top: 45px;
 }
 
 .homepage-counter .main-counter {
@@ -445,6 +446,7 @@ input[type=number] {
   text-align: center;
   width: 100%;
   padding: var(--common-padding);
+  background-color: var(--bg-color1);
 }
 
 .brands-carousel .slick-list {
@@ -482,12 +484,7 @@ input[type=number] {
 .contact-us {
   width: 100%;
   padding: var(--common-padding);
-}
-
-.contact-form {
-  background-color: #ededed;
-  padding: 60px;
-  border-radius: 5px;
+  background-color: var(--bg-color1);
 }
 
 .contact-form h4 {
@@ -500,13 +497,13 @@ input[type=number] {
 }
 
 .contact-form form input {
-  padding: 15px 20px;
+  padding: 10px 20px;
   color: var(--black);
   font-family: var(--paragraph-font);
-  margin-top: 30px;
   font-size: 17px;
   border: none;
   font-weight: 500;
+border: 1px solid #8f8f8f;
 }
 
 
@@ -524,15 +521,14 @@ input[type=number] {
 .contact-form form textarea {
   font-family: var(--paragraph-font);
   color: var(--black);
-  margin-top: 30px;
   font-size: 16px;
   border: none;
   font-weight: 500;
+  border: 1px solid #8f8f8f;
 }
 
 .contact-form .form-control:focus {
   box-shadow: none;
-  border: none;
 }
 
 .contact-form form textarea::placeholder {
@@ -544,7 +540,12 @@ input[type=number] {
   color: var(--black);
   opacity: 1;
 }
-
+.mt-40{
+  margin-top: 40px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -584,12 +585,12 @@ input[type=number] {
 }
 
 .contact-info h1 {
-  font-family: var(--paragraph-font);
+  font-family: var(--heading-font);
   font-size: 40px;
   color: var(--bg-color);
-  font-weight: 700;
+  font-weight: 500;
   line-height: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 }
 
 .contact-info p {
@@ -606,7 +607,6 @@ input[type=number] {
 }
 
 .contact-info ul {
-  margin-top: 40px;
   padding: 0;
   margin-bottom: 0;
 }
@@ -615,13 +615,11 @@ input[type=number] {
   list-style: none;
   display: flex;
   align-items: center;
-  border: 1px solid #ccc;
-  padding: 15px;
 }
 
 .contact-info ul li .icons {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   background-color: var(--secondary-color);
   border-radius: 50px;
   display: flex;
@@ -648,10 +646,12 @@ input[type=number] {
 .home-about-us {
   width: 100%;
   padding: var(--common-padding);
+  background-color: var(--bg-color1);
 }
 
 .usps-section {
-  margin-top: 40px;
+  width: 100%;
+  background-color: var(--white);
 }
 
 .about-one__thumb {
@@ -704,6 +704,13 @@ input[type=number] {
   color: var(--bg-color);
   line-height: 30px;
   margin-bottom: 25px;
+
+}
+.about-one__top__text span {
+  color: var(--bg-color);
+  font-size: 20px;
+  font-family: var(--paragraph-font);
+  font-weight: 600;
 }
 
 .about-one__list {
@@ -965,29 +972,29 @@ a.wallox-btn:hover {
 }
 
 .why-mmf-content img {
-  width: 11%;
+  width: 9%;
   margin-bottom: 20px;
 }
 
 .why-mmf-content h4 {
   font-family: var(--heading-font);
-  color: var(--secondary-color);
-  font-size: 24px;
+  color: var(--bg-color);
+  font-size: 21px;
 }
 
 .why-mmf-content span {
   font-family: var(--paragraph-font);
-  font-size: 17px;
+  font-size: 16px;
   color: var(--black);
   display: block;
-  margin-top: 13px;
-  line-height: 28px;
+  margin-top: 12px;
+  line-height: 26px;
 }
 
 .why-mmf-content {
   background-color: #ffffff1f;
-  padding: 0 30px;
   text-align: center;
+  padding: 30px 0;
 }
 
 /*************************our services css****************************/
@@ -1440,19 +1447,21 @@ svg:not(:root) {
 }
 
 .footer-copyright {
-  padding: 8px 0;
-  background-color: var(--white);
+  background-color: var(--black);
 }
-
+.footer-copy{
+  border-top: 1px solid var(--secondary-color);
+  padding: 15px 0;
+}
 .footer-copyright p {
   font-size: 12px;
   font-family: var(--paragraph-font);
   font-weight: 500;
-  color: var(--bg-color);
+  color: var(--white);
 }
 
 .footer-copyright p a {
-  color: var(--bg-color);
+  color: var(--white);
 }
 
 .footer-section .social-media li {
@@ -1487,7 +1496,9 @@ svg:not(:root) {
   width: 100%;
   height: 250px;
 }
-
+#map iframe{
+  border-radius: 10px;
+}
 /*********************our partners css********************/
 .home-our-partners {
   width: 100%;

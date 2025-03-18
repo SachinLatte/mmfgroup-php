@@ -3,15 +3,15 @@
 <section class="hero-section">
   <div class="hero-carousel-navigations">
     <div class="slider slider-thumb">
-      <div class="slider-thumb-content">
+      <div class="slider-thumb-content" data-aos="fade-up" data-aos-duration="1000">
         <i class="icons"><img src="img/distribution.png" alt="Distribution Img"></i>
         <h4>Distribution</h4>
       </div>
-      <div class="slider-thumb-content">
+      <div class="slider-thumb-content" data-aos="fade-up" data-aos-duration="1100">
         <i class="icons"><img src="img/stockist.png" alt="Super Stockist Img"></i>
         <h4>Super Stockist</h4>
       </div>
-      <div class="slider-thumb-content">
+      <div class="slider-thumb-content" data-aos="fade-up" data-aos-duration="1200">
         <i class="icons"><img src="img/marketing.png" alt="Marketing & Sales Img"></i>
         <h4>Marketing & Sales</h4>
       </div>
@@ -40,6 +40,32 @@
       </div>
   </div>
 </section><!--Home carousel section-->
+<div class="row usps-section">
+    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
+      <div class="why-mmf-content">
+        <img src="img/quality.svg" alt="">
+        <h4>Superior Quality Products</h4>
+        <span>Quality and quantity exist in tandem
+        with <br> every  product we supply.</span>
+      </div>
+    </div>
+    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1200">
+      <div class="why-mmf-content">
+        <img src="img/target.svg" alt="">
+        <h4>Customer Focussed</h4>
+        <span>Not just satisfying needs, but also
+        fulfilling <br> wants before they arise.</span>
+      </div>
+    </div>
+    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1400">
+      <div class="why-mmf-content">
+        <img src="img/solution.svg" alt="">
+        <h4>Custom-Made Solutions</h4>
+        <span>Quality and quantity exist in tandem
+        with <br> every  product we supply.</span>
+      </div>
+    </div>
+</div><!--usps section-->
 <section class="home-about-us">
   <div class="about-one">
     <div class="custom-container">
@@ -60,49 +86,23 @@
                         <h3 class="sec-title__title bw-split-in-up" data-aos="fade-left" data-aos-duration="1000">Helping Brands Reach Households
                         Across India</h3>
                     </div>
-                    <p class="about-one__top__text" data-aos="fade-left" data-aos-duration="1300">We are Manoj Multifoods Pvt. Ltd. (MMF Group) - one of the leading sales and distribution organisations in the country, headquartered in Asia's biggest market yard, APMC Market in Vashi, Navi Mumbai. Originally founded as a proprietorship concern by Manoj Satia, an industry stalwart since 1993, MMF Group takes your brand to every household through 3 areas of focus, namely marketing, sales, and seamless distribution.</p>
+                    <p class="about-one__top__text" data-aos="fade-left" data-aos-duration="1300">We are <span>Manoj Multifoods Pvt. Ltd. (MMF Group)</span> - one of the leading sales and distribution organisations in the country, headquartered in Asia's biggest market yard, APMC Market in Vashi, Navi Mumbai. Originally founded as a proprietorship concern by Manoj Satia, an industry stalwart since 1993, MMF Group takes your brand to every household through 3 areas of focus, namely marketing, sales, and seamless distribution.</p>
                     <div class="about-one__client" data-aos="fade-left" data-aos-duration="1400">
                         <a href="about-us.php" class="wallox-btn wallox-btn--base">Know More</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row usps-section">
-          <div class="col-md-4">
-            <div class="why-mmf-content">
-              <img src="img/quality.svg" alt="">
-              <h4>Superior Quality Products</h4>
-              <span>Quality and quantity exist in tandem
-              with every  product we supply.</span>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="why-mmf-content">
-              <img src="img/target.svg" alt="">
-              <h4>Customer Focussed</h4>
-              <span>Not just satisfying needs, but also
-              fulfilling wants before they arise.</span>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="why-mmf-content">
-              <img src="img/solution.svg" alt="">
-              <h4>Custom-Made Solutions</h4>
-              <span>Quality and quantity exist in tandem
-              with every  product we supply.</span>
-            </div>
-          </div>
-        </div>
     </div>
   </div>
 </section><!--about us section-->
 <section class="our-services">
-    <h4>Our Services</h4>
-    <h1 class="common-heading">What We Do Best</h1>
+    <h4 data-aos="fade-up" data-aos-duration="800">Our Services</h4>
+    <h1 class="common-heading" data-aos="fade-up" data-aos-duration="1000">What We Do Best</h1>
     <div cb-anglist-style="horizontal" class="ang-lst__collection__container w-dyn-list swiper-initialized swiper-horizontal swiper-free-mode swiper-backface-hidden">
     <div role="list" class="ang-lst__collection__wrapper w-dyn-items" id="swiper-wrapper-058dd41011d8a2e56" aria-live="polite" style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
         <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-active mr-35" aria-label="1 / 9">
-            <a href="javascript:void(0)" class="ang-lst__link w-inline-block">
+            <a href="our-services.php" class="ang-lst__link w-inline-block" data-aos="fade-right" data-aos-duration="1000">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
                         <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bfb83c62ed5413a33e2e37_pli-angebot-thumbs8.jpg" loading="lazy" alt="" class="utl__img" />
@@ -134,7 +134,7 @@
             </a>
         </div>
         <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-next mr-35" aria-label="2 / 9">
-            <a href="javascript:void(0)" class="ang-lst__link w-inline-block">
+            <a href="our-services.php" class="ang-lst__link w-inline-block" data-aos="fade-up" data-aos-duration="1050">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
                         <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bb5fb75ddb3429732a76a3_pli-angebot-thumbs3.jpg" loading="lazy" alt="" class="utl__img" />
@@ -166,7 +166,7 @@
             </a>
         </div>
         <div role="group" class="ang-lst__collection__item w-dyn-item swiper-slide-active mr-35" aria-label="1 / 9">
-            <a href="javascript:void(0)" class="ang-lst__link w-inline-block">
+            <a href="our-services.php" class="ang-lst__link w-inline-block" data-aos="fade-left" data-aos-duration="1100">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
                         <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bfb83c62ed5413a33e2e37_pli-angebot-thumbs8.jpg" loading="lazy" alt="" class="utl__img" />
@@ -200,42 +200,41 @@
     </div>
     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
 </div>
-
 </section><!--our services section-->
 <section class="homepage-counter">
     <div class="custom-container">
       <div class="row">
         <div class="col-md-6 col-xs-12">
           <div class="counter-content">
-            <h1>We Providing Digital
+            <h1 data-aos="fade-right"  data-aos-duration="1000">We Providing Digital
               Services in USA.</h1>
-            <hr />
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit eros nullam inceptos placerat aliquet taciti conubia himenaeos elementum mattis per velit eleifend ridiculus. Lorem ipsum dolor sit amet consectetur adipiscing elit eros nullam inceptos placerat aliquet taciti conubia himenaeos elementum mattis per velit eleifend ridiculus.</p>
+            <hr data-aos="fade-right"  data-aos-duration="1100" />
+            <p data-aos="fade-right"  data-aos-duration="1200">Lorem ipsum dolor sit amet consectetur adipiscing elit eros nullam inceptos placerat aliquet taciti conubia himenaeos elementum mattis per velit eleifend ridiculus. Lorem ipsum dolor sit amet consectetur adipiscing elit eros nullam inceptos placerat aliquet taciti conubia himenaeos elementum mattis per velit eleifend ridiculus.</p>
           </div>
         </div>
         <div class="col-md-6 col-xs-12">
         <div class="main-counter">
         <div class="row gutter-0">
           <div class="col-md-6 mb-100">
-            <div>
+          <div data-aos="fade-down" data-aos-duration="1000">
             <span class="counter kclass" data-count-start="0" data-count-end="100" data-speed="60"></span>
             <p>Project completed</p>
           </div>
           </div>
           <div class="col-md-6 mb-100">
-            <div>
+            <div data-aos="fade-down" data-aos-duration="1100">
             <span class="counter" data-count-start="0" data-count-end="200" data-speed="40"></span>
             <p>Skilled Professional</p>
           </div>
           </div>
           <div class="col-md-6">
-            <div>
+            <div data-aos="fade-down" data-aos-duration="1200">
             <span class="counter" data-count-start="0" data-count-end="100" data-speed="60"></span>
             <p>Visited Conference</p>
           </div>
           </div>
           <div class="col-md-6">
-            <div>
+            <div data-aos="fade-down" data-aos-duration="1300">
             <span class="counter kclass" data-count-start="0" data-count-end="100" data-speed="60"></span>
             <p>Happy Clients</p>
           </div>
@@ -247,8 +246,8 @@
     </div>
 </section><!--Home Counter Section-->
   <section class="brands-carousel">
-    <h1 class="common-heading">Trusted by great companies</h1>
-    <div class="brands-container">
+    <h1 class="common-heading" data-aos="fade-up" data-aos-duration="1000">Trusted by great companies</h1>
+    <div class="brands-container" data-aos="fade-down" data-aos-duration="1100">
       <div class="brands-carousel1 mt-5">
         <div class="img-box">
           <img src="img/brands/brand1.webp" alt="rentio toor dal img" />
@@ -276,7 +275,7 @@
         </div>
       </div>
     </div>
-    <div class="brands-container" dir="rtl">
+    <div class="brands-container" dir="rtl" data-aos="fade-up" data-aos-duration="1200">
       <div class="brands-carousel2 mt-5">
         <div class="img-box">
           <img src="img/brands/brand1.webp" alt="rentio toor dal img" />
@@ -310,17 +309,17 @@
       <div class="row">
         <div class="col-md-7">
             <div class="video-section">
-                <h1>Our Reach</h1>
-                <p>Marketing Presence in 50+ Countries</p>
-                <img src="img/world-map.png" alt="world map img" />
+                <h1 data-aos="fade-up" data-aos-duration="1000">Our Reach</h1>
+                <p data-aos="fade-up" data-aos-duration="1100">Marketing Presence in 50+ Countries</p>
+                <img src="img/world-map.png" alt="world map img" data-aos="zoom-in" data-aos-duration="1100" />
             </div>
         </div>
         <div class="col-md-5">
             <div class="network-content">
-              <p>Having the right network is the key to success in any industry, and more so in Indian Retail. At MMF, we pride ourselves in being able to transform and optimise our services to match the growth of your business needs.</p>
+              <p data-aos="fade-up" data-aos-duration="1150">Having the right network is the key to success in any industry, and more so in Indian Retail. At MMF, we pride ourselves in being able to transform and optimise our services to match the growth of your business needs.</p>
               <br />
-              <p>Our coverage stretches <span>22 major cities</span> in every end of the country. We have joined forces with <span>110 + distributors</span> , who manage <span>19,700+ outlets</span> . We operate out of <span>1 Central Warehouse</span>  in Mumbai, supplying all kinds of concerns that include 480 + SAS/NMT stores , 176 Modern Trade Stores (MT), 12 E-Comm chains, and 3 cash-n-carry chains.</p>
-              <button class="know-more"><a href="javascript:void(0)">Know More</a></button>
+              <p data-aos="fade-up" data-aos-duration="1200">Our coverage stretches <span>22 major cities</span> in every end of the country. We have joined forces with <span>110 + distributors</span> , who manage <span>19,700+ outlets</span> . We operate out of <span>1 Central Warehouse</span>  in Mumbai, supplying all kinds of concerns that include 480 + SAS/NMT stores , 176 Modern Trade Stores (MT), 12 E-Comm chains, and 3 cash-n-carry chains.</p>
+              <button class="know-more" data-aos="fade-up" data-aos-duration="1250"><a href="javascript:void(0)">Know More</a></button>
             </div>  
         </div>
       </div>
@@ -331,29 +330,29 @@
       <div class="row">
         <div class="col-md-6">
             <div class="contact-form">
+              <div class="contact-info ps-0" data-aos="fade-up" data-aos-duration="1000"><h1>Get In Touch</h1></div>
               <?php include "contact-form.php" ?>
             </div>
         </div>
         <div class="col-md-6">
           <div class="contact-info">
-            <h1>We're ready for your Business Solution with experts</h1>
-            <p>Consulting services are valuable for businesses of all sizes. They can provide small businesses with the expertise and guidance needed.</p>
+            <h1 data-aos="fade-up" data-aos-duration="1000">Reach Us</h1>
             <ul>
-              <li class="mb-4">
+              <li class="mb-40" data-aos="fade-up" data-aos-duration="1250">
                 <div class="icons"><img src="img/location.svg" alt="location img"></div>
                 <div class="address-content">
                   <span>Address</span>
-                  <p>Q-4, APMC Market 2, Phase 2, Sector 19B, Vashi, Navi Mumbai</p>
+                  <p>Q-4, APMC Market 2, Phase 2, Sector 19B, Vashi, Navi Mumbai. <br> Maharashtra - 400703</p>
                 </div>
               </li>
-              <li class="mb-4">
+              <li class="mb-40" data-aos="fade-up" data-aos-duration="1300">
                 <div class="icons"><img src="img/call.svg" alt="call img"></div>
                 <div class="address-content">
                   <span>Call Us</span>
                   <p><a href="tel:+91 22 4521 0999">+91 22 4521 0999</a></p>
                 </div>
               </li>
-              <li class="mb-4">
+              <li data-aos="fade-up" data-aos-duration="1350">
                 <div class="icons"><img src="img/email.svg" alt="email img"></div>
                 <div class="address-content">
                   <span>Mail Us</span>

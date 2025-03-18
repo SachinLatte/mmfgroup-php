@@ -55,9 +55,11 @@
   </section>
   <section class="footer-copyright">
     <div class="custom-container">
+    <div class="footer-copy">
       <div class="row">
         <div class="col-md-6"><p>Copyright © mmfgroup <span class="currentYear"></span> All Rights Reserved.</p></div>
         <div class="col-md-6"><p class="text-end">Designed By : <a href="https://www.digitallatte.in/">Digital Latte</a></p></div>
       </div>
+    </div>
     </div>
   </section>
