@@ -76,7 +76,4 @@ a.wallox-btn {
 .contact-info {
   padding: 0 0 0 45px;
 }
-.contact-info ul li:nth-last-child(1){
-  display: none;
-}
 }

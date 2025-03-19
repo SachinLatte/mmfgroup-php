@@ -19,23 +19,22 @@
   </div>
   <div class="slider slider-content">
       <div>
-        <img src="" data-lazy="img/banner.webp" alt="banner img" data-animation-in="zoomInImage">
+        <img src="" data-lazy="img/banner1.webp" alt="banner1 img" data-animation-in="zoomInImage">
         <div class="banner-content">
           <h1 class="animated"  data-animation-in="fadeInUp">Taking your <span>Brand</span> 
           to every <br> corner of <span>India</span></h1>
         </div>
       </div>
       <div>
-        <img src="" data-lazy="img/banner.webp" alt="banner img" data-animation-in="zoomInImage">
+        <img src="" data-lazy="img/banner2.webp" alt="banner2 img" data-animation-in="zoomInImage">
         <div class="banner-content">
           <h1 class="animated" data-animation-in="fadeInUp">The most reliable <span>Infrastructure</span>  and <span>Network</span></h1>
         </div>
       </div>
       <div>
-        <img src="" data-lazy="img/banner.webp" alt="banner img" data-animation-in="zoomInImage">
+        <img src="" data-lazy="img/banner3.webp" alt="banner3 img" data-animation-in="zoomInImage">
         <div class="banner-content">
-        <h1 class="animated"  data-animation-in="fadeInUp">Taking your <span>Brand</span> 
-        to every <br> corner of <span>India</span></h1>
+        <h1 class="animated"  data-animation-in="fadeInUp"><span>19700+</span> Outlets, <br> <span>22 Cities</span> across india</h1>
         </div>
       </div>
   </div>
@@ -66,7 +65,7 @@
       </div>
     </div>
 </div><!--usps section-->
-<section class="home-about-us">
+<section class="home-about-us" id="about-us">
   <div class="about-one">
     <div class="custom-container">
         <div class="row align-items-center gutter-y-30">
@@ -105,11 +104,12 @@
             <a href="our-services.php" class="ang-lst__link w-inline-block" data-aos="fade-right" data-aos-duration="1000">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
-                        <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bfb83c62ed5413a33e2e37_pli-angebot-thumbs8.jpg" loading="lazy" alt="" class="utl__img" />
+                        <img src="img/services1.webp" loading="lazy" alt="" class="utl__img" />
                         <div class="ang-lst__img__gradient"></div>
                     </div>
                     <div class="ang-lst__text-wrapper" style="--length: 10;">
                         <h3 class="ang-lst__heading">Distribution</h3>
+                        <p>Our successful track record goes back 20 years in ensuring a smooth and stress-free sourcing journey, and further helping your brand break new ground across the country. We'll have your brand reach the right people at the right place, so that you can watch your business grow.</p>
                         <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 0;">
                             <div class="utl__button">
                                 <div class="utl__button__text">Learn more</div>
@@ -137,11 +137,12 @@
             <a href="our-services.php" class="ang-lst__link w-inline-block" data-aos="fade-up" data-aos-duration="1050">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
-                        <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bb5fb75ddb3429732a76a3_pli-angebot-thumbs3.jpg" loading="lazy" alt="" class="utl__img" />
+                        <img src="img/services2.webp" loading="lazy" alt="" class="utl__img" />
                         <div class="ang-lst__img__gradient"></div>
                     </div>
                     <div class="ang-lst__text-wrapper" style="--length: 10;">
                         <h3 class="ang-lst__heading">Marketing & Sales</h3>
+                        <p>As the main link between your brand and retailers, our sales force is committed to helping your products fly off the shelves. The combined power of our expansive distribution network plus a roster of key clients can bring you improved sales volumes as well as deeper market penetration.</p>
                         <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 1;">
                             <div class="utl__button">
                                 <div class="utl__button__text">Learn more</div>
@@ -169,11 +170,12 @@
             <a href="our-services.php" class="ang-lst__link w-inline-block" data-aos="fade-left" data-aos-duration="1100">
                 <div class="ang-lst__block">
                     <div class="ang-lst__img-wrapper">
-                        <img src="https://cdn.prod.website-files.com/65a289fdf3cf4584881a404d/65bfb83c62ed5413a33e2e37_pli-angebot-thumbs8.jpg" loading="lazy" alt="" class="utl__img" />
+                        <img src="img/services3.webp" loading="lazy" alt="" class="utl__img" />
                         <div class="ang-lst__img__gradient"></div>
                     </div>
                     <div class="ang-lst__text-wrapper" style="--length: 10;">
-                        <h3 class="ang-lst__heading">Distribution</h3>
+                        <h3 class="ang-lst__heading">Super Stockist</h3>
+                        <p>While you focus on building your brand, we'll help you in growing its audience. Our network of GT distributors, RMT Stores, Modern Trade, E-comm, Bakeries, HO.RE.CA Partners and more are ready to take your products to every corner of the country.</p>
                         <div cb-scrollreveal-element="wrapper" cb-indexing-group="workitems" class="lay__button-wrapper left" style="--index: 0;">
                             <div class="utl__button">
                                 <div class="utl__button__text">Learn more</div>

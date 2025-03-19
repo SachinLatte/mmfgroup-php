@@ -100,3 +100,5 @@ AOS.init({
 //Current year script
 let CurrentDate = new Date();
 document.querySelector('.currentYear').innerText = CurrentDate.getFullYear();
+
+

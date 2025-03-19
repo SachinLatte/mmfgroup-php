@@ -147,7 +147,18 @@ input[type=number] {
   position: relative;
   overflow: hidden;
 }
-
+.slider-content .slick-slide::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #00000085;
+  z-index: 1;
+}
 .hero-carousel-navigations {
   position: absolute;
   z-index: 1;
@@ -317,7 +328,7 @@ input[type=number] {
 .banner-content {
   position: absolute;
   z-index: 1111111;
-  top: 40%;
+  top: 45%;
   left: 50%;
   width: 50%;
   transform: translate(-50%, -50%);
@@ -927,6 +938,33 @@ a.wallox-btn:hover {
   z-index: -1;
 }
 
+.img-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.img{
+  width: 25vw;
+  height: 50vh;
+  background-image: url(https://images.unsplash.com/photo-1726137570000-70ae29f0ba01?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+.about_text_pWrap {
+  overflow: hidden;
+}
+
+.about_text {
+  font-family: arial, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 0 50px 0;
+}
 /*********************why mmf css**************************/
 .why-mmf {
   width: 100%;
@@ -1000,7 +1038,7 @@ a.wallox-btn:hover {
 /*************************our services css****************************/
 .our-services {
   width: 100%;
-  background-color: #F4E6CD;
+  background-color: var(--bg-color);
   background-image: url("../img/service-bg-shape.png");
   background-repeat: no-repeat;
   background-position: center top;
@@ -1010,7 +1048,7 @@ a.wallox-btn:hover {
 
 
 .our-services h1 {
-  color: var(--bg-color);
+  color: var(--white);
 }
 
 .our-services h4 {
@@ -1020,7 +1058,7 @@ a.wallox-btn:hover {
   font-weight: 500;
   position: relative;
   text-align: center;
-  color: var(--bg-color);
+  color: var(--white);
 }
 
 .ang-lst__collection__container[cb-anglist-style="horizontal"] {
@@ -1036,8 +1074,9 @@ a.wallox-btn:hover {
   margin-top: 70px;
 }
 
-.ang-lst__link:hover .ang-lst__img-wrapper {
+.ang-lst__link:hover .ang-lst__img-wrapper .utl__img {
   transform: scale(1.05);
+  transition: all 0.5s ease;
 }
 
 .utl__button:hover .utl__button__bg,
@@ -1142,7 +1181,7 @@ a.wallox-btn:hover {
 }
 
 .ang-lst__block {
-  background-color: #edddc3;
+  background-color: #f0f0ff;
   border-radius: 4px;
   flex-direction: column;
   flex: 1;
@@ -1160,9 +1199,10 @@ a.wallox-btn:hover {
   transform-style: preserve-3d;
   flex: none;
   width: 100%;
-  margin-top: -10%;
+  margin-top: -25%;
   transition: transform .6s cubic-bezier(.165, .84, .44, 1);
   position: relative;
+  overflow: hidden;
 }
 
 .utl__img {
@@ -1174,10 +1214,11 @@ a.wallox-btn:hover {
   transition: transform .6s cubic-bezier(.165, .84, .44, 1);
   position: absolute;
   inset: 0%;
+  transition: all 0.5s ease;
 }
 
 .ang-lst__img__gradient {
-  background-image: linear-gradient(to bottom, #edddc303, #edddc3);
+  background-image: linear-gradient(to bottom, #edddc303, #f0f0ff);
   height: 25%;
   position: absolute;
   inset: auto 0% 0%;
@@ -1185,18 +1226,23 @@ a.wallox-btn:hover {
 
 .ang-lst__text-wrapper {
   z-index: 10;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: 20px;
+  grid-row-gap: 19px;
   flex-direction: column;
   flex: 1;
   justify-content: flex-start;
   align-items: stretch;
-  margin-top: -10px;
+  margin-top: -40px;
   padding: 0 40px 40px;
   display: flex;
   position: relative;
 }
-
+.ang-lst__text-wrapper p{
+  font-family: var(--paragraph-font);
+  font-size: 17px;
+  color: var(--black);
+  line-height: 28px;
+}
 .ang-lst__heading {
   font-size: 38px;
   font-family: var(--heading-font);
@@ -1215,6 +1261,7 @@ a.wallox-btn:hover {
   align-items: center;
   width: 100%;
   display: flex;
+  margin-top: 10px;
 }
 
 .utl__button {
